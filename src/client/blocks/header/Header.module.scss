@@ -4,13 +4,19 @@
   justify-content: center;
   display: flex;
   width: 100%;
-  background-color: red;
+  background-color: black;
+  height: 300px;
 
   &-social {
-  padding-left:50px ;
+    display: flex;
     width: 100%;
     color: #ffffff;
     font-family: "sans-serif";
     font-size:20px ;
+
+  }
+  &-socials{
+    vertical-align: middle;
+    text-align: center;
   }
 }

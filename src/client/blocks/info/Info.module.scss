@@ -1,0 +1,14 @@
+@import "src/client/styles/colors";
+
+.body{
+  justify-content: center;
+
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+
+  &-skills {
+    font-size: 30px;
+  }
+}

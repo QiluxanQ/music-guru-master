@@ -1,8 +1,12 @@
 export const store = {
-  headerData: {
-    socials: [
-      'Info', 'Skills', 'About'
-    ]
-
-  }
+    headerData: {
+        socials: [
+            'My', 'Name', 'Ila Belov'
+        ]
+    },
+        infoData: {
+            info: [
+                'My skils', 'React'
+            ]
+        }
 }

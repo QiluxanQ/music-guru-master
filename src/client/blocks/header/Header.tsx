@@ -6,20 +6,15 @@ const Header: FC<IHeaderProps> = ({  socials }) => {
 
   return (
     <div className={styles['header']}>
-      <div className={styles['header-gender']}>
-      </div>
-      <div>
-
-      </div>
-      <div className={styles['header-socials']}>
+    <div className={styles['header-socials']}>
         {socials?.map(social => (
-            <a href="#" className={styles['header-social']}>
-              {social}
-            </a>
+            <div  className={styles['header-social']}>
+                {social}
+            </div>
         ))}
-      </div>
     </div>
+</div>
+
   )
 }
-
 export default Header;
