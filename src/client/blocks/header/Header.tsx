@@ -2,14 +2,14 @@ import React, { FC } from 'react';
 import {IHeaderProps} from "./HeaderTypes";
 import styles from './Header.module.scss';
 
-const Header: FC<IHeaderProps> = ({ age, socials }) => {
+const Header: FC<IHeaderProps> = ({  socials }) => {
 
   return (
     <div className={styles['header']}>
       <div className={styles['header-gender']}>
       </div>
       <div>
-        {age}
+
       </div>
       <div className={styles['header-socials']}>
         {socials?.map(social => (
